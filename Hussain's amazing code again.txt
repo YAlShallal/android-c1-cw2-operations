@@ -1,0 +1,19 @@
+public class Main
+{
+	 public static void main(String[] args) {
+	   
+	   int budget = 20; //kd of course
+	   
+	   
+	   System.out.println("Can I buy the gift with 20 KD : " + checkPrice(budget));
+	   
+	   budget = budget + 20;
+	   
+	   System.out.println("With my current Budget, can I buy it now: " + checkPrice(budget));
+	}
+	
+	static boolean checkPrice(int currentBudget) {
+	    return  ((currentBudget > 30) && (currentBudget < 80));
+	    
+	}
+}
