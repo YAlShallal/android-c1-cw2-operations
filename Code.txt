@@ -1,0 +1,17 @@
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+	    double budget = 20; //kD
+		boolean canBuy = (30<budget)&&(budget<80);
+		System.out.println(canBuy);//boolean (true or false)
+		double budget 2 = +20; 
+		boolean canBuy2 = (30<budget2)&&(budget2<80);
+		System.out.println(canBuy2);
+	}
+}
